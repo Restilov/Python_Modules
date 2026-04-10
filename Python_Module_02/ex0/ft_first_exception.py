@@ -7,7 +7,7 @@
 #   By: ybarut <ybarut@student.42istanbul.com.tr>   +#+  +:+       +#+        #
 #                                                 +#+#+#+#+#+   +#+           #
 #   Created: 2026/03/10 15:37:41 by ybarut             #+#    #+#             #
-#   Updated: 2026/04/05 18:42:52 by ybarut            ###   ########.fr       #
+#   Updated: 2026/04/10 17:31:46 by ybarut            ###   ########.fr       #
 #                                                                             #
 # *************************************************************************** #
 
@@ -36,6 +36,7 @@ def test_temperature() -> None:
 
     print("\nAll tests completed - program didn't crash!")
 
+
 if __name__ == "__main__":
-	print("=== Garden Temperature ===")
-	test_temperature()
+    print("=== Garden Temperature ===")
+    test_temperature()

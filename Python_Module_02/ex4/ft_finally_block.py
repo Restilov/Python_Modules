@@ -1,3 +1,15 @@
+# *************************************************************************** #
+#                                                                             #
+#                                                         :::      ::::::::   #
+#   ft_finally_block.py                                 :+:      :+:    :+:   #
+#                                                     +:+ +:+         +:+     #
+#   By: ybarut <ybarut@student.42istanbul.com.tr>   +#+  +:+       +#+        #
+#                                                 +#+#+#+#+#+   +#+           #
+#   Created: 2026/04/10 17:30:38 by ybarut             #+#    #+#             #
+#   Updated: 2026/04/10 17:30:38 by ybarut            ###   ########.fr       #
+#                                                                             #
+# *************************************************************************** #
+
 class GardenError(Exception):
     def __init__(self, message: str = "Unknown garden error") -> None:
         super().__init__(message)

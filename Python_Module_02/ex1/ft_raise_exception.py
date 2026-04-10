@@ -6,7 +6,7 @@
 #   By: ybarut <ybarut@student.42istanbul.com.tr>   +#+  +:+       +#+        #
 #                                                 +#+#+#+#+#+   +#+           #
 #   Created: 2026/04/05 18:44:50 by ybarut             #+#    #+#             #
-#   Updated: 2026/04/05 19:05:23 by ybarut            ###   ########.fr       #
+#   Updated: 2026/04/10 17:32:20 by ybarut            ###   ########.fr       #
 #                                                                             #
 # *************************************************************************** #
 
@@ -19,7 +19,8 @@ def input_temperature(input: str) -> int:
         raise ValueError(f"{input}°C is too cold for plants (min 0°C)")
     elif 40 < input:
         raise ValueError(f"{input}°C is too hot for plants (max 40°C)")
-    return(input)
+    return (input)
+
 
 def test_temperature() -> None:
     print("Input data is '25'")
@@ -50,6 +51,7 @@ def test_temperature() -> None:
 
     print("\nAll tests completed - program didn't crash!")
 
+
 if __name__ == "__main__":
-	print("=== Garden Temperature Checker ===")
-	test_temperature()
+    print("=== Garden Temperature Checker ===")
+    test_temperature()
