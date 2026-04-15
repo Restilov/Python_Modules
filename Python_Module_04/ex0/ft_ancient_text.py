@@ -1,7 +1,7 @@
 import sys
 from typing import IO
- 
- 
+
+
 def read_file(filename: str) -> None:
     print(f"Accessing file '{filename}'")
     file: IO[str]
@@ -15,14 +15,14 @@ def read_file(filename: str) -> None:
     print("\n---")
     file.close()
     print(f"File '{filename}' closed.")
- 
- 
+
+
 def main() -> None:
     print("=== Cyber Archives Recovery ===")
     if len(sys.argv) != 2:
         print(f"Usage: {sys.argv[0]} <file>")
         return
     read_file(sys.argv[1])
- 
- 
+
+
 main()

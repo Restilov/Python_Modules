@@ -1,7 +1,7 @@
 import sys
 from typing import IO
- 
- 
+
+
 def read_file(filename: str) -> str:
     print(f"Accessing file '{filename}'")
     file: IO[str]
@@ -18,14 +18,14 @@ def read_file(filename: str) -> str:
     file.close()
     print(f"File '{filename}' closed.")
     return content
- 
- 
+
+
 def transform_content(content: str) -> str:
     lines: list[str] = content.splitlines()
     new_lines: list[str] = [line + "#" for line in lines]
     return "\n".join(new_lines) + "\n"
- 
- 
+
+
 def save_file(filename: str, content: str) -> None:
     print(f"Saving data to '{filename}'")
     file: IO[str]
@@ -39,8 +39,8 @@ def save_file(filename: str, content: str) -> None:
     file.write(content)
     file.close()
     print(f"Data saved in file '{filename}'.")
- 
- 
+
+
 def main() -> None:
     print("=== Cyber Archives Recovery & Preservation ===")
     if len(sys.argv) != 2:
@@ -61,6 +61,6 @@ def main() -> None:
         print("Not saving data.")
         return
     save_file(new_name, new_content)
- 
- 
+
+
 main()
