@@ -181,6 +181,7 @@ def main() -> None:
         "\nConsume some elements from the data processors: "
         "Numeric 3, Text 2, Log 1"
     )
+
     for proc in stream._processors:
         name = stream._proc_name(proc)
         if "Numeric" in name:
@@ -190,7 +191,8 @@ def main() -> None:
             for _ in range(2):
                 proc.output()
         elif "Log" in name:
-            proc.output()
+            for i in range(2):
+                proc.output()
     stream.print_processors_stats()
 
 

@@ -121,7 +121,7 @@ def main() -> None:
         num_proc.ingest("foo")  # type: ignore
     except TypeError as e:
         print(f" Got exception: {e}")
-    data_num = [1, 2, 3, 4, 5]
+    data_num: list[int | float] = [1, 2, 3, 4, 5]
     print(f" Processing data: {data_num}")
     num_proc.ingest(data_num)
     print(" Extracting 3 values...")
