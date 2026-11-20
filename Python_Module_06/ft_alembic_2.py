@@ -1,4 +1,3 @@
-"""Alembic 2: 'import ...' structure on alchemy/elements.py."""
 import alchemy.elements
 
 print("=== Alembic 2 ===")

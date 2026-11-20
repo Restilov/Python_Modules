@@ -1,4 +1,3 @@
-"""Transmutation 0: direct access to alchemy/transmutation/recipes.py."""
 import alchemy.transmutation.recipes
 
 print("=== Transmutation 0 ===")

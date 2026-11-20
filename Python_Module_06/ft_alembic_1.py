@@ -1,4 +1,3 @@
-"""Alembic 1: 'from ... import ...' structure on the local elements.py."""
 from elements import create_water
 
 print("=== Alembic 1 ===")

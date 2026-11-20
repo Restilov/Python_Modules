@@ -1,4 +1,3 @@
-"""Alembic 0: 'import ...' structure on the local elements.py."""
 import elements
 
 print("=== Alembic 0 ===")

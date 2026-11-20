@@ -1,4 +1,3 @@
-"""Transmutation 2: importing the alchemy module only."""
 import alchemy
 
 print("=== Transmutation 2 ===")

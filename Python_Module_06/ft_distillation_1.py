@@ -1,4 +1,3 @@
-"""Distillation 1: reaching the potions through the package interface."""
 import alchemy
 
 print("=== Distillation 1 ===")

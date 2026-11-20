@@ -1,4 +1,3 @@
-"""Kaboom 0: light magic records a spell without any explosion."""
 import alchemy.grimoire
 
 print("=== Kaboom 0 ===")

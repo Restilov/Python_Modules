@@ -1,4 +1,3 @@
-"""Alembic 4: the package interface only exposes a part of its content."""
 import alchemy
 
 print("=== Alembic 4 ===")

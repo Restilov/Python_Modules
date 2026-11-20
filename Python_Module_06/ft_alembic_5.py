@@ -1,4 +1,3 @@
-"""Alembic 5: 'from alchemy import ...' structure."""
 from alchemy import create_air
 
 print("=== Alembic 5 ===")
